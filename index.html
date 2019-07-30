@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Python Tutorial for ABSOLUTE beginners and EXPERTS alike.</title>
+</head>
+<body class = "nuclear">
+  <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="#blog.html">Blog</a>
+  <a href="#about">About</a>
+  <a href="#contact">Keep In Touch</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<section class = " introduction ">
+
+  <p>"The Government has been suppressing the freedom of expression and the pursuit of disseminating the truth because they fear an intelligent society, an empowered society capable of smashing the staus-quo!"<br><br>
+    By : Avi Gabrielle Ben Pansensoy<br><br>
+    Python  is the most popular programming language today and its popularity is soaring higher due to its flexiblity. It is very popular amongst the data analysts and data scientists not only because of its readability but also because it is very easy to use that makes a programmer more productive.It can solve problems with lesser codes compare to the other programming languages out there.It is not hostile to the beginners since its syntax or syntaxes are very easy to understand as if just like writing an english poem.There are no really difficulties in it, this is the primary reason that its community is growing wider and very supportive to the new programmers as well.It is a high-level, interpreted scripting language developed in the late 1980s by Guido van Rossum at the National Research Institute for Mathematics and Computer Science in the Netherlands.<br><br>
+  WHY CHOOSE PYTHON?<br><br>
+  1)Python has multiple libraries, it is never necessary to code complex task when there is an option to import modules from Python Libraries that had been developed by the Python community members.Some of the popular libraries of Python are NumPy and SciPy for scientific calculation, Django for web development, BeautifulSoup for website parsing.<br>
+  2)Python has corporate support from Google, Mozilla, Facebook, Amazon and among the others.<br>
+  3)Python is used in huge data analysis and machine learning.<br>
+  4)Python is applied for academic purposes.Just most recently, Universities in the Philippines such as Ateneo De Manila University introduced Python due to its versatility.It is a productive programming language for automating huge statistics in spreadsheets, CSV or any data comprising of multiple rows and columns.Working with Python is a bliss in itself, it has loads of third party modules accessible to its own humongous library developed by the Pythonistas who dedicated their lives not only for the successof the programming language per se but also to ease the lives of the aspiring programmers to solve the daily problems confronting the humanity.
+  <br><br>
+With the introduction of 5G and super computers, Python is very compatible with all of these new technological advancements because Python has been used to develop them.Without further ado, let us begin coding in Python. If you are a beginner , fear not ; just follow along and we will walk together all through these.
+</section>
+
+<div class = "preface">
+  <p>PROGRAMMING IN PYTHON:<br><br>
+  1)To start coding,navigate to Python.org and hit the Enter key.Then an image like below will appear, please download the latest version.
+
+  </p>
+</div>
+
+<div>
+  <img class = "python" src = "python.jpg"><br><br>
+</div>
+
+<div class = "second">
+  <p>2)Wait for a bit longer or it depends how fast the internet connection in downloading it.<br>Once it is is downloaded, an image like below will pop up; just follow the instruction.</p>
+</div>
+
+<div>
+    <img class = "python2" src = "python2.png"><br><br>
+</div>
+
+<div class ="third">
+  <p>3)Once done, head over to the terminal or command prompt and type: python just like below,<br><br>
+
+C:\Users\glenn>python<br><br>
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.<br>
+>>><br><br>
+If the words and anything shown above pop in the machine then These verify that  python is installed in the machine.<br><br>
+
+<div class = "code">
+  <p> READY TO CODE:<br><br>
+    Are you excited? Well, I am very excited to teach everything from scratch to the highest level to get you ready for the digital world.And so we are almost ready but we still have another requirement before we begin. IDLE can be used as an interpreter, but to maximize productivity, a text editor is needed for complex programming codes.Navigate to the browser, get into the Pycharm.org then download the community version since it is free.
+    Once downloaded then we are ready to code with Pycharm as the code editor.</p>
+  </div>
+
+<div class = "strike">
+  <p>“In a country where the sole employer is the State, opposition means death by slow starvation. The old principle: who does not work shall not eat, has been replaced by a new one: who does not obey shall not eat.” <br><br>
+    -- Leon Trotsky -- <br><br>
+    “Narcissists will never tell you the truth. They live with the fear of abandonment and can't deal with facing their own shame. Therefore, they will twist the truth, downplay their behavior, blame others and say what ever it takes to remain the victim. They are master manipulators and conartists that don't believe you are smart enough to figure out the depth of their disloyalty. Their needs will always be more important than telling you any truth that isn't in their favor..” <br><br>
+― Shannon L. Alder - <br><br>
+Before diving in, this tutorial begins in a not so conventional way such as the "HELLO WORLD" protocol but instead driving straight to the core concepts of Python to be a real Pythonista.The "HELLO WORLD" protocol might be alright yet programming immediately is an excellent option to grasp the theories behind the programming language.Do not be intimidated!<br><br>
+</p>
+</div>
+
+
+<div>
+<img class = "black" src = "jumbo.jpg">
+</div>
+
+<div class = "beginning">
+  <p>A) STRING COMPREHENSION:</p>
+</div>
+
+<div class = "primary">
+  <p> A string in Python is a list of characters in order. A character is anything you can type on the keyboard, a letter, a number, or a backslash.It is either enclosed with single quotation marks or double quotation marks."Glenn" is the same as 'Glenn'.<br><br><br><br>
+1)Philippines = " After President Duterte took office in 2016 , the Philippines has been gripped by extra judicial killings."<br>
+print(Philippines)<br><br>
+
+The result of the program is:<br>
+After President Duterte took office in 2016 , the Philippines has been gripped by extra judicial killings.<br><br><br>
+
+2)To capitalize all the characters in a string.<br>
+print(Philippines.upper())<br>
+
+AFTER PRESIDENT DUTERTE TOOK OFFICE IN 2016 , THE PHILIPPINES HAS BEEN GRIPPED BY EXTRA JUDICIAL KILLINGS.<br><br><br>
+
+3)Counting the characters inside the string.<br>
+print(len(Philippines))<br>
+107<br><br><br>
+
+4)Counting the frequencies or the occurrences of a character in a string.<br>
+print(Philippines.count('a'))<br>
+The result is only 3 since the capital letter 'A' is not included.Python is a case sensitive programming language.But if the method of coding  will be changed to:<br>
+print(Philippines.count('A'))<br>
+Then it will render the result of 1.<br><br><br>
+
+5)Looking for the index of a specific character in a string, this will always render the position of the first character only.<br>
+print(Philippines.find('x'))<br>
+The index of the character 'x' is in the (84) 84th letter in a string.<br><br><br>
+
+6)Replacing a character in a string.<br>
+print(Philippines.replace('P', 'e'))<br>
+After eresident Duterte took office in 2016 , the ehilippines has been gripped by extra judicial killings.<br><br><br>
+
+7)Determining the index of a word in a string.<br>
+print(Philippines.index('President'))<br>
+7 is the index of the word 'President' in  string.<br><br>
+There are more codes that can be used to manipulate a string and please try to visit this website for more details.<br>
+https://www.pythonforbeginners.com/<br><br>
+EVERYTHING LOOKS CUTE! RIGHT?<br>
+  </p>
+</div>
+
+<div>
+<img class = "roar" src = "fang.jpg">
+</div>
+
+<div class = "sophistication">
+  <p>Python codes are presented in a very simple manner yet are very sophisticated, they might look benign but do posses powerful fangs that make Python a dynamic programming language suitable to confront more complex programming challenges for today's technological advances; hop in and join our community.
+  </p>
+</div>
+
+<div class = "techie">
+  <p>B) LIST COMPREHENSION:
+  </p>
+</div>
+
+<div class = "explain">
+  <p>Sequence is the most basic data structure in Python.The information stored in a list is separated by commas and the first index starts with zero just like any other programming languages.there are loads of methods to access the data within it and can be used to concatenate or apply some mathematical calculations.List is usually enclosed in double brackets[] which signifies that any information within it is accessible,changeable and calculable.
+  </p>
+</div>
+
+<div class = "startup">
+  <p>There are numerous methods or ways of playing around with the LIST.<br><br>
+    1)Creating a variable to store the data.<br><br>
+    fishes = ['Yellow fin tuna ', 'Mackerel', 'Barracuda', 'Parrotfish', 'Herring', 'Sole fish', 'Salmon']<br><br>
+    Accessing or printing all the information within the list is simply call the 'print' statement.<br>
+    print('fishes')<br>
+    The program renders:<br>
+    ['Yellow fin tuna ', 'Mackerel', 'Barracuda', 'Parrotfish', 'Herring', 'Sole fish', 'Salmon']<br><br><br>
+    2)Python usually works in abstraction process, extracting the data within the list can be achieved through the use of indexing.<br><br>
+    fishes = [" Yellow fin tuna's", "Mackerel", "Barracuda", "Parrotfish", "Herring", "Sole fish", "Salmon"]<br><br>
+    Notice that the double quotation marks are used in every single item since the apostrophe has been applied in the item called Yellow fin tuna's.<br><br>
+    The program produces an output of:<br>
+    Yellow fin tuna'spopulation is dwindling due to the unquenchable demands for SUSHIS and SASHIMIS.<br><br><br>
+    3)Concatenation or the fusion of the 2 separate lists.<br><br>
+    countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
+    pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs']<br><br>
+    print(countries + pests)<br>
+    This program yields:<br>
+    ['Norway', 'Denmark', 'Finland', 'Israel', 'Argentina', 'Uruguay', 'Mosquitos', 'Cockroaches', 'Ants', 'Rats', 'Bugs']<br><br><br>
+    4)Adding and removing items stored in the lists.<br><br>
+    countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
+    pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs']<br><br>
+
+Adding an item in a list with the application of .append<br>
+countries.append('Japan')<br>
+print(countries)<br><br>
+Removing or deleting an item.<br>
+pests.remove('Mosquitos')<br>
+print(pests)<br><br>
+
+The results of the 2 different codes are:<br><br>
+['Norway', 'Denmark', 'Finland', 'Israel', 'Argentina', 'Uruguay', 'Japan']<br>
+['Cockroaches', 'Ants', 'Rats', 'Bugs']<br><br><br>
+
+5) Inserting an item within the list through the use of indexing to place data in a desired location.<br><br>
+countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
+pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs']<br><br>
+
+countries.insert(0, 'Brazil')<br>
+print(countries)<br><br>
+
+pests.insert(-1, 'Duterte')<br>
+print(pests)<br><br>
+['Brazil', 'Norway', 'Denmark', 'Finland', 'Israel', 'Argentina', 'Uruguay']<br>
+['Mosquitos', 'Cockroaches', 'Ants', 'Duterte', 'Rats', 'Bugs']<br><br><br>
+
+6)The utilization of the FOR loop in extracting data and combine each with a statement.<br><br>
+countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
+pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs']<br><br>
+
+for countries in countries:<br>
+    print(countries + ' is a socialist state.')<br><br>
+
+for pests in pests:<br>
+    print(pests + 'are the carriers of deadly diseases.')<br><br>
+
+    Norway is a socialist state.<br>
+    Denmark is a socialist state.<br>
+    Finland is a socialist state.<br>
+    Israel is a socialist state.<br>
+    Argentina is a socialist state.<br>
+    Uruguay is a socialist state.<br><br>
+    Mosquitos are the carriers of deadly diseases.<br>
+    Cockroaches are the carriers of deadly diseases.<br>
+    Ants are the carriers of deadly diseases.<br>
+    Rats are the carriers of deadly diseases.<br>
+    Bugs are the carriers of deadly diseases.<br><br><br>
+
+  7)Obtaining the data.<br><br>
+  countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
+pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs']<br><br>
+
+for items in countries:<br>
+    print(items)<br><br>
+Norway<br>
+Denmark<br>
+Finland<br>
+Israel<br>
+Argentina<br>
+Uruguay<br><br><br>
+
+8) Combination of the 2 data extracted from 2 different lists.<br><br>
+countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
+pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs.']<br><br>
+
+print(countries[0] + ' is a country that do not have ' + pests [4])<br><br>
+
+Norway is a country that do not have Bugs.<br><br><br>
+
+9)Sorting the items in a list in alphabetical order with the usance of .sort() and .reverse() methods.<br><br>
+countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
+pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs']<br><br>
+
+countries.sort()<br>
+print(countries)<br><br>
+
+pests.reverse()<br>
+print(pests)<br><br>
+
+['Argentina', 'Denmark', 'Finland', 'Israel', 'Norway', 'Uruguay']<br>
+['Bugs', 'Rats', 'Ants', 'Cockroaches', 'Mosquitos']<br><br>
+
+10)Calculating the number of items in a list and enumerating the number of characters of every data within the list with 2 different coding structures.<br><br>
+sciences = ['psychology', 'anatomy', 'physiology', 'biology', 'archaeology', 'history']<br>
+species = ['Homo Sapiens', 'Homo Habilis', 'Homo Erectus', 'Homo Duterte Murderer', 'Homo Neanderthalensis']<br><br>
+
+Valuating the number of items:<br>
+(len(sciences))<br><br>
+6 is the output.<br>
+There are 6 items in the list named sciences.<br><br>
+
+Figuring out the number of characters in each item.<br>
+for w in species:<br>
+    print(w, len(w))<br><br>
+    Homo Sapiens 12<br>
+    Homo Habilis 12<br>
+    Homo Erectus 12<br>
+    Homo Duterte Murderer 21<br>
+    Homo Neanderthalensis 21<br><br><br>
+
+11)Replacing an item within the list.<br><br>
+sciences[0] = 'zoology'<br>
+print(sciences)<br><br>
+['zoology', 'anatomy', 'physiology', 'biology', 'archaeology', 'history']<br><br>
+
+Removing an item in 2 processes with the usance of .remove() method and del method.<br><br>
+First, the implemetation of the .remove() method by specifying the name that should be removed from the list.<br>
+species.remove('Homo Erectus')<br>
+print(species)<br><br>
+['Homo Sapiens', 'Homo Habilis', 'Homo Duterte Murderer', 'Homo Neanderthalensis'] should be the outcome of the program.<br><br>
+
+Another is the usage of the del method through indexing.The application of the -1 is to remove the last item since the last item of a list is indexed at -1 and the first is indexed at 0.<br>
+del species[-1]<br>
+print(species)<br><br>
+['Homo Sapiens', 'Homo Habilis', 'Homo Duterte Murderer']<br><br><br>
+
+12)Applying mathematical operation for summing up 2 extracted items from different lists.<br><br>
+To achieve the goal of adding 2 different items, create variables to store the data.<br><br>
+a = len(sciences[0])<br>
+b = len(species[4])<br><br>
+
+print(a)<br>
+11 is the output<br><br>
+print(b)<br>
+21 is the output<br><br>
+
+print (a + b)<br>
+32 is the output<br><br><br>
+ </p>
+</div>
+
+<div>
+<img class = "creep" src = "creep.jpg">
+</div>
+
+<div class ="crawler">
+  <p>It is fun playing with Python and this is just the beginning.Everyone has to crawl before leaping higher, from these basic Python codes; complex Python operations will be underdtood easily.List manipulation is the springboard towards data science.<br><br>
+    WORKING WITH LISTS WITH NUMERICAL VALUES WITHIN:<br><br>
+    1)Combining 2 lists<br><br>
+    grades = [85.80, 98.00, 96.20, 85.00, 96.75, 98.50, 95.85, 84.90]<br>
+    weeks = [4, 62, 42, 86, 54, 75, 38]<br><br>
+    print(grades + weeks)<br>
+    [85.8, 98.0, 96.2, 85.0, 96.75, 98.5, 95.85, 84.9, 4, 62, 42, 86, 54, 75, 38]<br><br><br>
+
+    2)Sum of the 2 sums of the 2 different lists.<br><br>
+    a = sum(grades)<br>
+    print(a)<br>
+    741.0<br><br>
+
+    b = sum(weeks)<br>
+    print(b)<br>
+    361<br><br>
+
+    print(a + b)<br>
+    1102.0<br><br><br>
+
+    3)Adding 2 data vertically through indexing.<br><br>
+      a = grades[0]<br>
+      b = weeks[0]<br><br>
+      print(a + b)<br><br>
+      89.8 is the result.<br><br><br>
+
+    4)Indexing data and the usage of mathematical operations.<br><br>
+    even = [2, 4, 6 ,8]<br>
+    odd =  [1, 3, 5, 7]<br><br>
+
+    print(even[0] **2 + odd[0])<br>
+    5 is the output.<br><br><br>
+
+    5)Dividing the sum of the 2 separate lists.<br><br>
+    even = [2, 4, 6 ,8]<br>
+    odd =  [1, 3, 5, 7]<br><br>
+
+    print(sum(even) / (sum(odd)))<br>
+    1.25 is the result.<br><br><br>
+</p>
+</div>
+
+    <div class = "dict">
+      <p>C) EXTENSIVE DICTIONARY COMPREHENSION:</p>
+    </div><br>
+
+    <div class = "dictionary">
+						  <p>A dictionary is a collection or or a stcokpile of items, generally are unordered combinations.It works usually with key values and enclosed with curly brackets{}.
+						</p>
+						</div>
+
+						<div class = "content">
+						  <p>1)It behaves like Lists and Tuples in printing the values stored in it.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.',
+						'Chile': 'Women are far more .','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+
+						'Israel': 'Women are armed and gorgeous.', 'Brazil': 'Women love beaching around.', 'Argentina': 'Women are intelligent.', 'Uruguay': 'Women love to eat loads of meat.', 'Chile': 'Women are far more courageous.', 'Italy': 'Women love to eat outdoors and wine is their passion.', 'Spain': 'Women are nostalgic of their conquistadores.'}<br><br>
+
+						2)Accessing the information within it is through printing the name or names enclosed in single or double quotation marks.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						print(countries['Israel'])<br><br>
+
+
+						Women are armed and gorgeous<br><br>
+
+						3)Counting the keys and values.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women have nostalgia on their conquistadores.'}<br><br>
+
+
+						print(len(countries))<br><br>
+
+						7<br><br>
+
+						4)Deleting a key and a value in a dictionary.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women have nostalgic of their conquistadores.'}<br><br>
+
+
+						del countries['Brazil']<br><br>
+						print(countries)<br><br>
+
+						{'Israel': 'Women are armed and gorgeous.', 'Argentina': 'Women are intelligent.', 'Uruguay': 'Women love to eat loads of meat.', 'Chile': 'Women are far more courageous.', 'Italy': 'Women love to eat outdoors and wine is their passion.', 'Spain': 'Women are nostalgic of their conquistadores.'}<br><br>
+
+						5)Another method of accessing information inside the dictionary.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+
+						print(countries.get('Argentina'))<br><br>
+
+						Women are intelligent<br><br>
+
+						6)Determining the keys.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores'}<br><br>
+
+
+
+						print(countries.keys())<br><br>
+
+						dict_keys(['Israel', 'Brazil', 'Argentina', 'Uruguay', 'Chile', 'Italy', 'Spain'])<br><br>
+
+						7)Accesing the values stored in keys.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores'}<br><br>
+
+
+
+						print(countries.values())<br><br>
+
+						dict_values(['Women are armed an gorgeous.', 'Women love beaching around.', 'Women are intelligent.', 'Women love to eat loads of meat.', 'Women are far more courageous.', 'Women love to eat outdoors and wine is their passion.', 'Women are nostalgic of their conquistadores.'])<br><br>
+
+						8)Using the for loop in a dictionary.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						for item in countries:<br>
+						    if 'Brazil' in countries:<br>
+						        print('This country has the biggest rainforest across the globe.')<br><br>
+
+						        break<br><br>
+
+						    else:<br>
+						        print('Where is it?')<br><br>
+
+						This country has the biggest rainforest across the globe.<br><br>
+
+						9)Another way of determining the values.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores'}<br><br>
+
+
+						for v in countries.values():<br>
+						    print(v)<br><br>
+
+						Women are armed and gorgeous.<br>
+						Women love beaching around.<br>
+						Women are intelligent.<br>
+						Women love to eat loads of meat.<br>
+						Women are far more courageous<br>
+						Women love to eat outdoors and wine is their passion.<br>
+						Women have nostalgia on their conquistadores.<br><br>
+
+						10)countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						for v in countries.keys():<br>
+						    print(v)<br><br>
+
+						Israel<br>
+						Brazil<br>
+						Argentina<br>
+						Uruguay<br>
+						Chile<br>
+						Italy<br>
+						Spain<br>
+
+						11)Conversion into tuples.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						for i in countries.items():<br>
+						    print(i)<br><br>
+
+						('Israel', 'Women are armed and gorgeous.')<br>
+						('Brazil', 'Women love beaching around.')<br>
+						('Argentina', 'Women are intelligent.')<br>
+						('Uruguay', 'Women love to eat loads of meat.')<br>
+						('Chile', 'Women are far more courageous.')<br>
+						('Italy', 'Women love to eat outdoors and wine is their passion.')<br>
+						('Spain', 'Women are nostalgic of their conquistadores.')<br><br>
+
+						12)Adding new key and value in a dictionary.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						if 'Philippines' not in countries:<br>
+						    countries['Philippines'] = 'The murder capital of the world today.'<br>
+						    print(countries)<br><br>
+
+						13)Another method of adding new key and value inside the dictionary.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						countries['Malaysia'] = 'Is truly Asia'<br>
+						print(countries)<br><br>
+
+						{'Israel': 'Women are armed and gorgeous.', 'Brazil': 'Women love beaching around.', 'Argentina': 'Women are intelligent.', 'Uruguay': 'Women love to eat loads of meat.', 'Chile': 'Women are far more courageous', 'Italy': 'Women love to eat outdoors and wine is their passion.', 'Spain': 'Women are nostalgic of their conquistadores.', 'Malaysia': 'Is truly Asia.'}<br><br>
+
+						14)Adding multiple keys and values using dictionary{} with .update.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						countries.update({'Peru' : 'Used to be the inca capital.', 'Mexico': 'The war on drugs turns the street into blood.'})<br><br>
+						print(countries)<br><br>
+
+						{'Israel': 'Women are armed and gorgeous.', 'Brazil': 'Women love beaching around.', 'Argentina': 'Women are intelligent.', 'Uruguay': 'Women love to eat loads of meat.', 'Chile': 'Women are far more courageous.', 'Italy': 'Women love to eat outdoors and wine is their passion.', 'Spain': 'Women are nostalgic of their conquistadores', 'Peru': 'Used to be the inca capital.', 'Mexico': 'The war on drugs turns the street into blood.'}<br><br>
+
+						15)Removing or deleting a key and a value.<br><br>
+						countries = {'Israel' :'Women are armed and gorgeous.','Brazil' : 'Women love beaching around.','Argentina' : 'Women are intelligent.','Uruguay' : 'Women love to eat loads of meat.','Chile'
+						: 'Women are far more courageous.','Italy' : 'Women love to eat outdoors and wine is their passion.','Spain' : 'Women are nostalgic of their conquistadores.'}<br><br>
+
+
+						del countries['Israel']<br><br>
+						print(countries)<br><br>
+						{'Brazil': 'Women love beaching around.', 'Argentina': 'Women are intelligent.', 'Uruguay': 'Women love to eat loads of meat.', 'Chile': 'Women are far more courageous.', 'Italy': 'Women love to eat outdoors and wine is their passion.', 'Spain': 'Women are nostalgic of their conquistadores.'}<br><br>
+
+						16)Accessing multiple data.<br><br>
+						fresh = {<br>
+						    'fish': 'anchovies',<br>
+						    'price': '1500 per box',<br>
+						    'quality': 'excellent quality',<br>
+						    'origin': 'fresh catch from the west philippine sea',<br>
+						    'freshness': 'very fresh',<br>
+
+						}<br><br>
+
+						print(fresh['fish'])<br>
+						print(fresh['price'])<br>
+						print(fresh['quality'])<br>
+						print(fresh['origin'])<br>
+						print(fresh['freshness'])<br><br>
+
+
+						anchovies<br>
+						1500 per box<br>
+						excellent quality<br>
+						fresh catch from the west philippine sea<br>
+						very fresh<br><br>
+
+						17)Determining the items.<br><br>
+						fresh = {<br>
+						    'fish': 'anchovies',<br>
+						    'price': '1500 per box',<br>
+						    'quality': 'excellent quality',<br>
+						    'origin': 'fresh catch from the west philippine sea',<br>
+						    'freshness': 'very fresh',<br>
+
+						}<br><br>
+
+						print(fresh.items())<br><br>
+
+
+						dict_items([('fish', 'anchovies'), ('price', '1500 per box'), ('quality', 'excellent quality'), ('origin', 'fresh catch from the west philippine sea'), ('freshness', 'very fresh')])<br><br>
+
+						18)More cleaner presentation.<br><br>
+						fresh = {<br>
+						    'fish': 'anchovies',<br>
+						    'price': '1500 per box',<br>
+						    'quality': 'excellent quality',<br>
+						    'origin': 'fresh catch from the west philippine sea',<br>
+						    'freshness': 'very fresh',<br>
+
+						}<br><br>
+
+						for items in fresh:<br>
+						    print(items)<br><br>
+
+
+						fish<br>
+						price<br>
+						quality<br>
+						origin<br>
+						freshness<br><br>
+
+						19)Extracting the keys and values.<br><br>
+						fresh = {<br>
+						    'fish': 'anchovies',<br>
+						    'price': '1500 per box',<br>
+						    'quality': 'excellent quality',<br>
+						    'origin': 'fresh catch from the west philippine sea',<br>
+						    'freshness': 'very fresh',<br>
+
+						}<br><br>
+
+						for key,value in fresh.items():<br>
+						    print(key,value)<br><br>
+
+						fish anchovies<br>
+						price 1500 per box<br>
+						quality excellent quality<br>
+						origin fresh catch from the west philippine sea<br>
+						freshness very fresh<br><br>
+
+						20) Extracting only the values in a dictionary.<br><br>
+						groceries = {'Pasta Fettuccinne' : '150', 'Tomatoes' : '140', 'Groundbeef': '200', 'Onions' : '160', 'Parmesan': '120',
+						             'Oliveoil' : '180', 'Driedbasil' : '110','Carrots' : '80','Redwine' : '1200','SaltandPepper': '50','FreshMushrooms':'120',
+						              'Celery' : '165'}<br><br>
+
+						for values in groceries.values():<br>
+						    print(values)<br><br>
+
+						150<br>
+						140<br>
+						200<br>
+						160<br>
+						120<br>
+						180<br>
+						110<br>
+						80<br>
+						1200<br>
+						50<br>
+						120<br>
+						165<br><br>
+
+						21)Another method of combining or concatenating 2 dictionaries.<br><br>
+						palawan = {'El_Nido' :' International Tourist Spot','Puerto Princesa' : 'Underground River'}<br>
+						panay = {'Boracay' : 'A Mess'}<br><br>
+
+						palawan.update(panay)<br><br>
+						print(palawan)<br>
+
+						{'El_Nido': ' International Tourist Spot', 'Puerto Princesa': 'Underground River', 'Boracay': 'A Mess'}<br><br>
+
+						22)Calculating temperature through the use of dictionaries.<br><br>
+						Fahrenheit = {'Mild_Fever' : 98.6,<br>
+						               'Dangerous_Temperature': 100.4,<br>
+						               'Severe_Temperature' : 105.00,<br>
+						               'Deadly' : 110.00<br>
+						             }<br><br>
+
+						Celsius = (Fahrenheit['Mild_Fever'] - 32) * 5/9<br>
+						print(Celsius)<br><br>
+
+						23)Programming in dictionaries.<br><br>
+
+						Let us assume of going into a supermarket and buy some ingredients for pasta bolognnaisse.<br><br>
+
+						1)Create a dictionary and store all the necessary ingredients in a variable called groceries.<br><br>
+
+						groceries = {'Pasta Fettuccinne' : 150, 'Tomatoes' : 140, 'Groundbeef': 200, 'Onions' : 160, 'Parmesan': 120,
+						             'Oliveoil' : 180, 'Driedbasil' : 110,'Carrots' : 80,'Redwine' : 1200,'SaltandPepper': 50,'FreshMushrooms':120,
+						              'Celery' : 165}<br><br>
+
+
+
+						Enumerating the items inside the basket.<br><br>
+						for items in groceries:<br>
+						    print(items)<br>
+
+						The result of the program:<br><br>
+
+						Pasta Fettuccinne<br>
+						Tomatoes<br>
+						Groundbeef<br>
+						Onions<br>
+						Parmesan<br>
+						Oliveoil<br>
+						Driedbasil<br>
+						Carrots<br>
+						Redwine<br>
+						SaltandPepper<br>
+						FreshMushrooms<br>
+						Celery<br.<br>
+
+						 Calculating the sum of all the prices of the grocery items.<br><br>
+
+
+						for values in groceries.values():<br>
+						    print(values)<br>
+
+
+
+						print(sum(groceries.values()))<br>
+						2675<br><br>
+
+
+						To Achieve this the quotation marks in the numbers should be remove to make them integers and not strings.<br>
+
+						You called your dad and told him about all the items bough but he insisted that items such as Frenchbread and Pancdetta should be added into the basket.<br>
+
+						Create another dictionary.<br><br>
+
+
+						new_item = {'FrenchBread' : 260, 'Pancetta' : 320}<br><br>
+
+						groceries.update(new_item)<br>
+						print(groceries)<br>
+						print(sum (groceries.values()), 'is the new price that you have to pay.')<br><br>
+
+
+
+
+						24)Accessing and calculating the information within the dictionary or dictionaries.<br><br>
+						supplies = {'Jackhammer': 6500, 'Powersaw' : 18000, 'Electricdrill': 12000, 'stabilizer' : 8000, 'Sonar' : 500000, 'Superlight' : 15000,
+						            'Fishfinder' : 23000, 'Underwater' : 32000}<br><br>
+
+						discount = { 'Holiday': .10, 'Christmascut' : .20}<br><br>
+
+
+						Bonanza = supplies['Jackhammer'] * discount['Holiday']<br>
+						print(Bonanza)
+						Bonanza_price = supplies['Jackhammer'] - Bonanza<br>
+						print(Bonanza_price)<br><br>
+
+
+						25)Determining the maximum death toll in a certain month and year,or use this in any other dictionary.<br><br>
+						Kill = Duterte_Murder = {'Jul2016' : 1260, 'Aug2016' : 814, 'Sept2016' : 743, 'Oct216' : 1675, 'Nov2016' : 446, 'Dec2016': 228, 'Jan217' : 154,
+						                  'Feb2017' : 865, 'March2017' : 2045, 'April2017' : 2856, 'May2017': 3438, 'Jun2017' : 3890, 'Jul217' : 4580, 'Aug217' : 564,
+						                  'Sept2017' : 568, 'Oct217' : 743, 'Nov2017' : 354, 'Dec2017' : 218, 'Jan2018' : 132, 'Feb2018' : 2016, 'March2018': 419,
+						                  'April2018': 689, 'May2018' : 75, 'Jun2018' : 178, 'Jul2018' : 45, 'Aug2018' : 974, 'Sept2018' : 328, 'Oct2018' : 762,
+						                  'Nov2018' : 593, 'Dec2018' : 23, 'Jan219' : 18, 'Feb2019' : 316, 'March2019' : 118, 'April2019' : 95, 'May2019' : 88,
+						                  'Jun2019' : 145,'Jul2019' : 118}<br><br>
+
+						x = max(Kill.items(), key=lambda k: k[1])<br>
+						print(x)<br>
+						('Jul217', 4580)<br><br>
+
+
+
+						26)Another method of determining the maximum.<br><br>
+						Kill = Duterte_Murder = {'Jul2016' : 1260, 'Aug2016' : 814, 'Sept2016' : 743, 'Oct216' : 1675, 'Nov2016' : 446, 'Dec2016': 228, 'Jan217' : 154,
+						                  'Feb2017' : 865, 'March2017' : 2045, 'April2017' : 2856, 'May2017': 3438, 'Jun2017' : 3890, 'Jul217' : 4580, 'Aug217' : 564,
+						                  'Sept2017' : 568, 'Oct217' : 743, 'Nov2017' : 354, 'Dec2017' : 218, 'Jan2018' : 132, 'Feb2018' : 2016, 'March2018': 419,
+						                  'April2018': 689, 'May2018' : 75, 'Jun2018' : 178, 'Jul2018' : 45, 'Aug2018' : 974, 'Sept2018' : 328, 'Oct2018' : 762,
+						                  'Nov2018' : 593, 'Dec2018' : 23, 'Jan219' : 18, 'Feb2019' : 316, 'March2019' : 118, 'April2019' : 95, 'May2019' : 88,
+						                  'Jun2019' : 145,'Jul2019' : 118}<br><br>
+
+						Steal = Duterte_Corruption = {2016 : 890000000, 2017 : 120000000, 2018 : 320000000, 2019 : 3408000000 }<br><br>
+
+
+						Ecollapse = Duterte_Foreign_Debt = {2016 : 2800000000, 2017 : 98000000000, 2018 : 860000000, 2019 : 7600000000}<br><br>
+
+						class Tyranny:<br>
+						    def __init__(self,highest_death_toll):<br>
+						        self.highest_death_toll = highest_death_toll<br><br>
+
+						        print(max(Kill.values()))<br><br>
+
+						a = Tyranny(max(Kill.values()))<br>
+						print(a.highest_death_toll,'is highest death toll, innocent poor Filipinos who died relentlessy at the hands of the butcher paid by the state.')<br><br>
+
+						27)Organizing the data or structuring data.<br><br>
+						import pandas as pd<br><br>
+
+						killed_extra_judicially = ['Althea Barbon', 'Hideyoshi Kawata', 'Joshua Cumilang', 'Jefferson Bunuan', 'Carl Arnaiz','Danica Mae Garcia']<br><br>
+						age_of_murdered_Filipinos = [4, 17, 18, 20, 19, 5 ]<br><br>
+
+						murderers_enablers = {'Rodrigo Duterte' : 'President.', 'Pastor' : 'Manny Pacquiao.', 'Imee Marcos' : 'Senator','PNP' : 'State Vigilante Group',
+						                      'Sal Panelo' : 'Uncircumcised Leech','Alan Peter Cayetano': 'PATAY GUTOM CRAP'}<br><br>
+
+						words_of_justice = ('Murder is a crime.','They are not animals but humans.' )<br><br>
+  </p>
+</div>
+
+<div class = "tupleworld">
+  <p>D) TUPLE COMPREHENSION:</p>
+</div><br><br>
+
+  <div class = "toppledown">
+    Tuples behave just like Lists but they are immutable and usually are enclosed with parentheses.<br><br>
+    1)Manipulating a TUPLE.<br><br>
+    gifts = ( 'bells', 'toys', 'pants','cards', 'chocolates')<br>
+    value = (100, 85, 1200, 350, 480)<br><br>
+
+a = value[0]<br>
+print(a)<br>
+b = discuento[1]<br><br>
+print(b)<br>
+c = a * b<br>
+print(c * 100)<br><br>
+
+
+100<br>
+0.005<br>
+50.0<br><br>
+
+     2)Extracting the data stored in a TUPLE through indexing and calculating the sum of all the values inside the particular TUPLE.<br><br>
+     print(gifts[2])<br>
+     print(sum(value))<br><br>
+     pants<br>
+     2215<br><br><br>
+</p>
+</div>
+
+<div class = "epilogue">
+  <p>These are just some of the core concepts of Python programming that help those who want to learn the language to acquire more profound comprehension.I am always hoping that you are not only having fun reading but also learning which is the sweetest part of it.THANKS AND ENJOY YOUR DAY!
+  </p>
+</div>
+
+<div class="footer">
+  <p class = "wave">Digital Tutorial by : Avi Gabrielle Ben Pansensoy<br>
+  poeticgurion90@gmail.com</p>
+</div>
+
+
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+</body>
+</html>
