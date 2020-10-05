@@ -91,10 +91,18 @@ print(Philippines)<br><br>
 The result of the program is:<br>
 After President Duterte took office in 2016 , the Philippines has been gripped by extra judicial killings.<br><br><br>
 
-2)To capitalize all the characters in a string.<br>
+2)(a)To capitalize all the characters in a string.<br>
 print(Philippines.upper())<br>
+(b)To capitalize first character of the string.<br>
+st = "philippine"<br>
+print(st.capitalize())<br>
 
-AFTER PRESIDENT DUTERTE TOOK OFFICE IN 2016 , THE PHILIPPINES HAS BEEN GRIPPED BY EXTRA JUDICIAL KILLINGS.<br><br><br>
+output (a)<br>
+AFTER PRESIDENT DUTERTE TOOK OFFICE IN 2016 , THE PHILIPPINES HAS BEEN GRIPPED BY EXTRA JUDICIAL KILLINGS.<br>
+output (b)<br>
+Philippine<br>
+
+<br><br><br>
 
 3)Counting the characters inside the string.<br>
 print(len(Philippines))<br>
@@ -156,9 +164,14 @@ EVERYTHING LOOKS CUTE! RIGHT?<br>
     The program produces an output of:<br>
     Yellow fin tuna'spopulation is dwindling due to the unquenchable demands for SUSHIS and SASHIMIS.<br><br><br>
     3)Concatenation or the fusion of the 2 separate lists.<br><br>
+    Method 1:<br>
     countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
     pests = ['Mosquitos', 'Cockroaches','Ants','Rats','Bugs']<br><br>
     print(countries + pests)<br>
+    This program yields:<br>
+    ['Norway', 'Denmark', 'Finland', 'Israel', 'Argentina', 'Uruguay', 'Mosquitos', 'Cockroaches', 'Ants', 'Rats', 'Bugs']<br>
+    Method 2:<br>
+    pests.extend(countries)<br>
     This program yields:<br>
     ['Norway', 'Denmark', 'Finland', 'Israel', 'Argentina', 'Uruguay', 'Mosquitos', 'Cockroaches', 'Ants', 'Rats', 'Bugs']<br><br><br>
     4)Adding and removing items stored in the lists.<br><br>
@@ -169,12 +182,23 @@ Adding an item in a list with the application of .append<br>
 countries.append('Japan')<br>
 print(countries)<br><br>
 Removing or deleting an item.<br>
+Method 1:<br>
 pests.remove('Mosquitos')<br>
+Method 2:<br>
+del pests[1]<br>
+Method 3:<br>
+pests.pop[1]<br>
 print(pests)<br><br>
 
-The results of the 2 different codes are:<br><br>
+The results of the 4 different codes are:<br><br>
 ['Norway', 'Denmark', 'Finland', 'Israel', 'Argentina', 'Uruguay', 'Japan']<br>
-['Cockroaches', 'Ants', 'Rats', 'Bugs']<br><br><br>
+Method 1 output:<br>
+['Cockroaches', 'Ants', 'Rats', 'Bugs']<br>
+Method 2 output:<br>
+['Cockroaches', 'Rats', 'Bugs']<br>
+Method 3 output:<br>
+['Cockroaches', 'Bugs']<br><br><br>
+
 
 5) Inserting an item within the list through the use of indexing to place data in a desired location.<br><br>
 countries = ['Norway', 'Denmark', 'Finland','Israel','Argentina', 'Uruguay']<br>
